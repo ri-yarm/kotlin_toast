@@ -32,18 +32,6 @@
         android:hint="Введите логин" />
 
     <EditText
-        android:id="@+id/user_email_auth"
-        android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:textColorHint="#6a6a6a"
-        android:textColor="#fff"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:hint="Введите email" />
-
-    <EditText
         android:id="@+id/user_pass_auth"
         android:layout_width="220dp"
         android:layout_height="50dp"
@@ -56,7 +44,7 @@
         android:hint="Введите пароль" />
 
     <Button
-        android:id="@+id/button_reg"
+        android:id="@+id/button_auth"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:textStyle="bold"
