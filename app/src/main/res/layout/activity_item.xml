@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e2a600"
+    tools:context=".ItemActivity">
+
+    <TextView
+        android:id="@+id/item_list_title_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:paddingVertical="10dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/item_list_text_one"
+        android:layout_width="match_parent"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="20dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/item_list_button_one"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C10C0C"
+        android:layout_gravity="center"
+        android:text="Купить" />
+
+</LinearLayout>

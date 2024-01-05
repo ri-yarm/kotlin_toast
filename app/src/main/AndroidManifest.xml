@@ -17,6 +17,9 @@
         android:theme="@style/Theme.ITProggerNew"
         tools:targetApi="31">
         <activity
+            android:name=".ItemActivity"
+            android:exported="false" />
+        <activity
             android:name=".itemsActivity"
             android:exported="false" />
         <activity
