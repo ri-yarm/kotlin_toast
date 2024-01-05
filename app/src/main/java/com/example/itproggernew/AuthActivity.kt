@@ -39,6 +39,9 @@ class AuthActivity : AppCompatActivity() {
 
                     userLogin.text.clear()
                     userPass.text.clear()
+
+                    val intent = Intent(this, itemsActivity::class.java)
+                    startActivity(intent)
                 } else {
                     Toast.makeText(this, "Не получилось войти", Toast.LENGTH_LONG).show()
                 }
